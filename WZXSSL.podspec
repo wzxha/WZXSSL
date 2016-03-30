@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                    DESC
   s.source_files  = "WZXSSLTool/*"
   s.platform      = :ios, "7.0"
-  s.framework     = "UIKit"
+  s.framework     = 'Foundation', 'CoreGraphics', 'UIKit'  
 
 
 end
