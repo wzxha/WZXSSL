@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B9789BE1CA9154100C0E3BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789BD1CA9154100C0E3BB /* main.m */; };
+		4B9789C11CA9154100C0E3BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789C01CA9154100C0E3BB /* AppDelegate.m */; };
+		4B9789C41CA9154100C0E3BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789C31CA9154100C0E3BB /* ViewController.m */; };
+		4B9789C71CA9154100C0E3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9789C51CA9154100C0E3BB /* Main.storyboard */; };
+		4B9789C91CA9154100C0E3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9789C81CA9154100C0E3BB /* Assets.xcassets */; };
+		4B9789CC1CA9154100C0E3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9789CA1CA9154100C0E3BB /* LaunchScreen.storyboard */; };
+		4B9789D71CA9154100C0E3BB /* WZXSSLToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789D61CA9154100C0E3BB /* WZXSSLToolTests.m */; };
+		4B9789E21CA9154100C0E3BB /* WZXSSLToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789E11CA9154100C0E3BB /* WZXSSLToolUITests.m */; };
+		4B9789F21CA9157A00C0E3BB /* NSString+WZXSSLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9789F11CA9157A00C0E3BB /* NSString+WZXSSLTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9789D31CA9154100C0E3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9789B11CA9154100C0E3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9789B81CA9154100C0E3BB;
+			remoteInfo = WZXSSLTool;
+		};
+		4B9789DE1CA9154100C0E3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9789B11CA9154100C0E3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9789B81CA9154100C0E3BB;
+			remoteInfo = WZXSSLTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B9789B91CA9154100C0E3BB /* WZXSSLTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZXSSLTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9789BD1CA9154100C0E3BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B9789BF1CA9154100C0E3BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B9789C01CA9154100C0E3BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B9789C21CA9154100C0E3BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B9789C31CA9154100C0E3BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B9789C61CA9154100C0E3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B9789C81CA9154100C0E3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B9789CB1CA9154100C0E3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B9789CD1CA9154100C0E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9789D21CA9154100C0E3BB /* WZXSSLToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXSSLToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9789D61CA9154100C0E3BB /* WZXSSLToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXSSLToolTests.m; sourceTree = "<group>"; };
+		4B9789D81CA9154100C0E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9789DD1CA9154100C0E3BB /* WZXSSLToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXSSLToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9789E11CA9154100C0E3BB /* WZXSSLToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXSSLToolUITests.m; sourceTree = "<group>"; };
+		4B9789E31CA9154100C0E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9789F01CA9157A00C0E3BB /* NSString+WZXSSLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WZXSSLTool.h"; sourceTree = "<group>"; };
+		4B9789F11CA9157A00C0E3BB /* NSString+WZXSSLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WZXSSLTool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9789B61CA9154100C0E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789CF1CA9154100C0E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789DA1CA9154100C0E3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9789B01CA9154100C0E3BB = {
+			isa = PBXGroup;
+			children = (
+				4B9789BB1CA9154100C0E3BB /* WZXSSLTool */,
+				4B9789D51CA9154100C0E3BB /* WZXSSLToolTests */,
+				4B9789E01CA9154100C0E3BB /* WZXSSLToolUITests */,
+				4B9789BA1CA9154100C0E3BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9789BA1CA9154100C0E3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789B91CA9154100C0E3BB /* WZXSSLTool.app */,
+				4B9789D21CA9154100C0E3BB /* WZXSSLToolTests.xctest */,
+				4B9789DD1CA9154100C0E3BB /* WZXSSLToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9789BB1CA9154100C0E3BB /* WZXSSLTool */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789EF1CA9155300C0E3BB /* WZXSSLTool */,
+				4B9789BF1CA9154100C0E3BB /* AppDelegate.h */,
+				4B9789C01CA9154100C0E3BB /* AppDelegate.m */,
+				4B9789C21CA9154100C0E3BB /* ViewController.h */,
+				4B9789C31CA9154100C0E3BB /* ViewController.m */,
+				4B9789C51CA9154100C0E3BB /* Main.storyboard */,
+				4B9789BC1CA9154100C0E3BB /* Supporting Files */,
+			);
+			path = WZXSSLTool;
+			sourceTree = "<group>";
+		};
+		4B9789BC1CA9154100C0E3BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789C81CA9154100C0E3BB /* Assets.xcassets */,
+				4B9789CA1CA9154100C0E3BB /* LaunchScreen.storyboard */,
+				4B9789CD1CA9154100C0E3BB /* Info.plist */,
+				4B9789BD1CA9154100C0E3BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B9789D51CA9154100C0E3BB /* WZXSSLToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789D61CA9154100C0E3BB /* WZXSSLToolTests.m */,
+				4B9789D81CA9154100C0E3BB /* Info.plist */,
+			);
+			path = WZXSSLToolTests;
+			sourceTree = "<group>";
+		};
+		4B9789E01CA9154100C0E3BB /* WZXSSLToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789E11CA9154100C0E3BB /* WZXSSLToolUITests.m */,
+				4B9789E31CA9154100C0E3BB /* Info.plist */,
+			);
+			path = WZXSSLToolUITests;
+			sourceTree = "<group>";
+		};
+		4B9789EF1CA9155300C0E3BB /* WZXSSLTool */ = {
+			isa = PBXGroup;
+			children = (
+				4B9789F01CA9157A00C0E3BB /* NSString+WZXSSLTool.h */,
+				4B9789F11CA9157A00C0E3BB /* NSString+WZXSSLTool.m */,
+			);
+			path = WZXSSLTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9789B81CA9154100C0E3BB /* WZXSSLTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9789E61CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLTool" */;
+			buildPhases = (
+				4B9789B51CA9154100C0E3BB /* Sources */,
+				4B9789B61CA9154100C0E3BB /* Frameworks */,
+				4B9789B71CA9154100C0E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZXSSLTool;
+			productName = WZXSSLTool;
+			productReference = 4B9789B91CA9154100C0E3BB /* WZXSSLTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B9789D11CA9154100C0E3BB /* WZXSSLToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9789E91CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLToolTests" */;
+			buildPhases = (
+				4B9789CE1CA9154100C0E3BB /* Sources */,
+				4B9789CF1CA9154100C0E3BB /* Frameworks */,
+				4B9789D01CA9154100C0E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9789D41CA9154100C0E3BB /* PBXTargetDependency */,
+			);
+			name = WZXSSLToolTests;
+			productName = WZXSSLToolTests;
+			productReference = 4B9789D21CA9154100C0E3BB /* WZXSSLToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B9789DC1CA9154100C0E3BB /* WZXSSLToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9789EC1CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLToolUITests" */;
+			buildPhases = (
+				4B9789D91CA9154100C0E3BB /* Sources */,
+				4B9789DA1CA9154100C0E3BB /* Frameworks */,
+				4B9789DB1CA9154100C0E3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9789DF1CA9154100C0E3BB /* PBXTargetDependency */,
+			);
+			name = WZXSSLToolUITests;
+			productName = WZXSSLToolUITests;
+			productReference = 4B9789DD1CA9154100C0E3BB /* WZXSSLToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9789B11CA9154100C0E3BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wzx;
+				TargetAttributes = {
+					4B9789B81CA9154100C0E3BB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4B9789D11CA9154100C0E3BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4B9789B81CA9154100C0E3BB;
+					};
+					4B9789DC1CA9154100C0E3BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4B9789B81CA9154100C0E3BB;
+					};
+				};
+			};
+			buildConfigurationList = 4B9789B41CA9154100C0E3BB /* Build configuration list for PBXProject "WZXSSLTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9789B01CA9154100C0E3BB;
+			productRefGroup = 4B9789BA1CA9154100C0E3BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9789B81CA9154100C0E3BB /* WZXSSLTool */,
+				4B9789D11CA9154100C0E3BB /* WZXSSLToolTests */,
+				4B9789DC1CA9154100C0E3BB /* WZXSSLToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B9789B71CA9154100C0E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9789CC1CA9154100C0E3BB /* LaunchScreen.storyboard in Resources */,
+				4B9789C91CA9154100C0E3BB /* Assets.xcassets in Resources */,
+				4B9789C71CA9154100C0E3BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789D01CA9154100C0E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789DB1CA9154100C0E3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9789B51CA9154100C0E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9789F21CA9157A00C0E3BB /* NSString+WZXSSLTool.m in Sources */,
+				4B9789C41CA9154100C0E3BB /* ViewController.m in Sources */,
+				4B9789C11CA9154100C0E3BB /* AppDelegate.m in Sources */,
+				4B9789BE1CA9154100C0E3BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789CE1CA9154100C0E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9789D71CA9154100C0E3BB /* WZXSSLToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9789D91CA9154100C0E3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9789E21CA9154100C0E3BB /* WZXSSLToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9789D41CA9154100C0E3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9789B81CA9154100C0E3BB /* WZXSSLTool */;
+			targetProxy = 4B9789D31CA9154100C0E3BB /* PBXContainerItemProxy */;
+		};
+		4B9789DF1CA9154100C0E3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9789B81CA9154100C0E3BB /* WZXSSLTool */;
+			targetProxy = 4B9789DE1CA9154100C0E3BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B9789C51CA9154100C0E3BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9789C61CA9154100C0E3BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B9789CA1CA9154100C0E3BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9789CB1CA9154100C0E3BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B9789E41CA9154100C0E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B9789E51CA9154100C0E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9789E71CA9154100C0E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXSSLTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B9789E81CA9154100C0E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXSSLTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B9789EA1CA9154100C0E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXSSLToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXSSLTool.app/WZXSSLTool";
+			};
+			name = Debug;
+		};
+		4B9789EB1CA9154100C0E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXSSLToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXSSLTool.app/WZXSSLTool";
+			};
+			name = Release;
+		};
+		4B9789ED1CA9154100C0E3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXSSLToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXSSLTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4B9789EE1CA9154100C0E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXSSLToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NULL.WZXSSLToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXSSLTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9789B41CA9154100C0E3BB /* Build configuration list for PBXProject "WZXSSLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9789E41CA9154100C0E3BB /* Debug */,
+				4B9789E51CA9154100C0E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9789E61CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9789E71CA9154100C0E3BB /* Debug */,
+				4B9789E81CA9154100C0E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B9789E91CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9789EA1CA9154100C0E3BB /* Debug */,
+				4B9789EB1CA9154100C0E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B9789EC1CA9154100C0E3BB /* Build configuration list for PBXNativeTarget "WZXSSLToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9789ED1CA9154100C0E3BB /* Debug */,
+				4B9789EE1CA9154100C0E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9789B11CA9154100C0E3BB /* Project object */;
+}
