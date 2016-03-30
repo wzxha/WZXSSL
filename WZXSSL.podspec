@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
                   Fast encryption string, the current support for MD5 (16, 32), Sha1, Base64
                    DESC
   s.source_files  = "WZXSSLTool/*"
-  s.platform      = :ios, "7.0"
+  s.platform      = :ios, '7.0'
   s.framework     = 'Foundation', 'CoreGraphics', 'UIKit'  
-
 
 end
