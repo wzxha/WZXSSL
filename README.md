@@ -1,7 +1,9 @@
 # WZXSSL
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Wzxhaha/WZXSSL/blob/master/LICENSE)
 字符串快速加密的工具类，目前支持MD5(16、32)、Sha1、base64
 
 #如何使用
+`#import "NSString+WZXSSLTool.h"`
 ```
  NSString * str = @"wzx";
  NSLog(@"32MD5:%@",[str do32MD5]);
