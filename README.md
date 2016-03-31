@@ -1,5 +1,6 @@
 # WZXSSL
 [![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Wzxhaha/WZXSSL/blob/master/LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/v/WZXSSL.svg)](https://github.com/Wzxhaha/WZXSSL)
 <div>
 </div>
 字符串快速加密的工具类，目前支持MD5(16、32)、Sha1、base64
