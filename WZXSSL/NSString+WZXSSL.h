@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (WZXSSLTool)
+@interface NSString (WZXSSL)
 
 /** 
  * 32位MD5加密
@@ -40,4 +40,7 @@
  */
 - (NSString *)decodeBase64;
 
+- (NSString *)doAES:(NSString *)key;
+
+- (NSString *)decodeAES:(NSString *)key;
 @end
