@@ -3,10 +3,9 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/WZXSSL.svg)](https://github.com/Wzxhaha/WZXSSL)
 <div>
 </div>
-字符串快速加密的工具类，目前支持MD5(16、32)、Sha1、base64
+MD5(16、32)、Sha1、base64、DES、AES 
 
-#如何使用
-`#import "NSString+WZXSSLTool.h"`
+`#import "NSString+WZXSSL.h"`
 ```
 NSString * str = @"wzx";
 NSLog(@"32MD5:%@",[str do32MD5]);
@@ -16,10 +15,9 @@ NSLog(@"Twice16MD5:%@",[[str do16MD5] do16MD5]);
 NSLog(@"Sha1:%@",[str doSha1]);
 NSLog(@"Base64:%@",[str doBase64]);
 ```
-你可以任意组合进行混合加密。
 <div>
 </div>
-输出:
+log>>
 ```
 2016-03-30 16:03:53.523 WZXSSLTool[74550:707925] 32MD5:ece44bfb7451c6c1abd33fabed0cc93d
 2016-03-30 16:03:53.523 WZXSSLTool[74550:707925] 16MD5:7451c6c1abd33fab
