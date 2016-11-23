@@ -10,37 +10,22 @@
 
 @interface NSString (WZXSSL)
 
-/** 
- * 32位MD5加密
- * 32 bit MD5 encryption
- */
-- (NSString *)do32MD5;
-
-/**
- * 16位MD5加密
- * 16 bit MD5 encryption
- */
 - (NSString *)do16MD5;
 
-/**
- * Sha1加密
- * Sha1 encryption
- */
+- (NSString *)do32MD5;
+
 - (NSString *)doSha1;
 
-/**
- * base64加密
- * base64 encryption
- */
 - (NSString *)doBase64;
 
-/**
- * base64解密
- * Base64 decryption
- */
 - (NSString *)decodeBase64;
 
 - (NSString *)doAES:(NSString *)key;
 
 - (NSString *)decodeAES:(NSString *)key;
+
+- (NSString *)doDES:(NSString *)key;
+
+- (NSString *)decodeDES:(NSString *)key;
+
 @end
